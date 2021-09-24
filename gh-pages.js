@@ -1,7 +1,7 @@
 import { publish } from 'gh-pages';
 
 publish(
-	'./build/index.html', // path to public directory
+	'./build', // path to public directory
 	{
 		branch: 'gh-pages',
 		repo: 'https://github.com/MatejGroombridge/SvelteKit-Pokedex-App.git', // Update to point to your repository
