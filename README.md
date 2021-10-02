@@ -1,38 +1,25 @@
-# create-svelte
+# SvelteKit Pokedex Website
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+A SvelteKit demo that uses the Pokemon API to build a pokedex. From a youtube course by James Q Quick
 
-## Creating a project
+## Table of contents
 
-If you're seeing this, you've probably already done this step. Congrats!
+- [Screenshot](#screenshot)
+- [Built with](#built-with)
+- [Project Takeaways](#project-takeaways)
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
+### Screenshot
 
-# create a new project in my-app
-npm init svelte@next my-app
-```
+![](./screenshot.png)
 
-> Note: the `@next` is temporary
+### Built with
 
-## Developing
+- HTML5
+- SCSS
+- SvelteKit
+- Desktop First Workflow
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+### Project Takeaways
 
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
-
-```bash
-npm run build
-```
-
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+- How to use SvelteKit
+- How to use API's in projects
